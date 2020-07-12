@@ -1,0 +1,228 @@
+h1,h2,h3,h4,h5,h6,p,ul{
+    margin: 0;
+}
+a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+.header{
+    background: url(../images/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.headre__container{
+    padding: 40px 0 260px;
+    text-align: center;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headre__logo{
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+}
+.nav-menu{
+    max-width: 540px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-menu__link{
+    font-size: 14px;
+    color: #fff;
+}
+.header__title{
+    margin: 260px 0 33px;
+    text-transform: uppercase;
+    font-size: 48px;
+    color: #fff;
+}
+.header__subtitle{
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.header__btn{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 17px 33px;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    color: #fff;
+}
+.services__container{
+    padding: 100px 0;
+}
+.tittle{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    color: #555;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 60px;
+}
+.tittle::after{
+    content: '';
+    width: 50px;
+    position: absolute;
+    height: 2px;
+    background: #555;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.subtitle{
+    text-align: center;
+    font-family: 'Roboto Slab';
+    font-weight:  400;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 70px;
+}
+.services-icon{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid #dedede;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #c0301c;
+    margin: 0 auto;
+}
+.col-xl-4:hover .services-icon{
+    background: #c0301c;
+    color: #fff;
+}
+.services__tittle{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px 0 25px;
+    font-size: 14px;
+    color: #555;
+    font-weight: 700;
+}
+.services__subtitle{
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+    line-height: 24px;
+    text-align: center;
+}
+.about{
+    background-color: #f8f8f8;
+}
+.about__container{
+    padding: 100px 0;
+}
+.about__text{
+    font-family: 'Roboto Slab';
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+    line-height: 24px;
+    margin-bottom: 70px;
+}
+
+.about-slider__img img{
+    margin: 0 auto;
+    z-index: 0;
+}
+.about-slider__img{
+    position: relative;
+}
+.about-slider__icons{
+    position: absolute;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
+.about-slider__icons a{
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    font-size: 18px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+.about-slider__icons a:hover{
+    background-color: #c0301c;
+}
+.about-slider__img:hover .about-slider__icons{
+    display: block;
+}
+.about-slider__title{
+    text-transform: uppercase;
+    margin: 20px 015px;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    font-weight: 700;
+}
+.about-slider__subtitle{
+    text-align: center;
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    font-size: 13px;
+    color: #555;
+}
+.slick-prev,
+.slick-next{
+    width: 35px;
+    height: 38px;
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #c1c1c1;
+    border: none;
+    position: absolute;
+    top: 106px;
+    z-index: 99;
+    
+}
+.about-slider__overlany{
+    position: absolute;
+    width: 263px;
+    height: 250px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(85, 85, 85, 0.502);
+    display: none;
+}
+.about-slider__img:hover .about-slider__overlany{
+    display: block;
+}
+.slick-prev{
+    left: 11px;
+}
+.slick-next{
+   right: 11px; 
+}
+.slick-prev:hover,
+.slick-next:hover{
+    background: #c0301c;
+}
+
